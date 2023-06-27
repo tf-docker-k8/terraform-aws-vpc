@@ -23,7 +23,7 @@ variable "public_subnet_cidr" {
   type = list
   validation {
         condition = (
-        length(var.public_subnet_cidr) == 2
+            length(var.public_subnet_cidr) == 2
         )
         error_message = "CIDR list must be 2"
     }
@@ -66,7 +66,7 @@ variable "database_subnet_cidr" {
   type = list
   validation {
         condition = (
-        length(var.database_subnet_cidr) == 2
+            length(var.database_subnet_cidr) == 2
         )
         error_message = "CIDR list must be 2"
     }
