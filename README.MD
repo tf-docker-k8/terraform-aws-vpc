@@ -17,7 +17,7 @@ This module is going to create following resources. It can automatically fetch t
 * Assocition between database subnets and database route table
 
 #### Name format
-**for subnets:** [project_name]-public/private/database-1a/1b
+**for subnets:** [project_name]-public/private/database-1a/1b <br/>
 **for routetables:** [project_name]-public/private/database
 
 ### Arguments
