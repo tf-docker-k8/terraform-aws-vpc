@@ -45,3 +45,7 @@ This module is going to create following resources. It can automatically fetch t
 **public_route_table_tags** (Optional) - User can provide tags, other wise empty <br/>
 
 **database_route_table_tags** (Optional) - User can provide tags, other wise empty <br/>
+
+### Outputs
+
+vpc_id -  This is the ID of VPC created
